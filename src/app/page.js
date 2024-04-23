@@ -21,9 +21,11 @@ export default function Home() {
               <Link href='/player'><button className="btn btn-secondary mb-6 ml-4">Únete Como Jugador</button></Link>
             </div>
           </div>
-          {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
-          </div> */}
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <iframe className='rounded-lg' width="560" height="315" src="https://www.youtube-nocookie.com/embed/jORpYDB_8RY?si=hioCbKKS1koE1DbP&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/jORpYDB_8RY?si=V0ueC5STJ8mPVijf&amp;controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+            {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" /> */}
+          </div>
         </div>
       </section>
       {/*  */}
