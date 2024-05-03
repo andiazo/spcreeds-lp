@@ -11,20 +11,20 @@ export default function Home() {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="text-6xl font-bold my-6 text-white">Bienvenidos a SpCreeds</h1>
-            <p className="mb-8 leading-relaxed text-white">
+            <p className="mb-8 leading-relaxed text-white text-xl">
               Descubre y potencia tu talento en el universo de Valorant con SpCreeds, el epicentro para aspirantes y profesionales de esports.
               Únete a nuestra red y conviértete en una estrella emergente del circuito competitivo.
               Eleva tu juego y carrera al máximo nivel con nuestro soporte y comunidad.
             </p>
             <div className="flex justify-center">
-              <a href='https://discord.gg/b7atqU35mx'><button className="btn btn-primary mb-4">Explora Talentos</button></a>
+              <a href='https://discord.gg/kbVMb8pwTj' target='_blank'><button className="btn btn-primary mb-4">Explora Talentos</button></a>
               <Link href='/player'><button className="btn btn-secondary mb-6 ml-4">Únete Como Jugador</button></Link>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <iframe className='rounded-lg' width="560" height="315" src="https://www.youtube-nocookie.com/embed/jORpYDB_8RY?si=hioCbKKS1koE1DbP&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/jORpYDB_8RY?si=V0ueC5STJ8mPVijf&amp;controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
-            {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" /> */}
+          <div className="lg:w-1/2 md:w-1/2 sm:w-full">
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe src="https://www.youtube.com/embed/coI29AE18ps?si=ymh2l4MpuQytED4N&amp;controls=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+          </div>
           </div>
         </div>
       </section>
@@ -32,8 +32,8 @@ export default function Home() {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h2 className="text-xs text-green-500 tracking-widest font-medium title-font mb-1">ESPORTS</h2>
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-white">Impulsa Tu Carrera con SpCreeds</h1>
+            <h2 className="text-xl text-green-500 tracking-widest font-medium title-font mb-1">ESPORTS</h2>
+            <h1 className="sm:text-3xl text-4xl md:text-4xl font-bold title-font text-white">Impulsa Tu Carrera con SpCreeds</h1>
           </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
@@ -57,7 +57,7 @@ export default function Home() {
                 <div className="flex-grow">
                   <p>Recluta los mejores talentos emergentes, gestiona tu equipo de manera eficaz, y asegura patrocinios que potencien tu presencia en el mercado.</p>
 
-                  <a href='https://discord.gg/b7atqU35mx'><button className="btn btn-primary m-4">Explora Talentos</button></a>
+                  <a href='https://discord.gg/kbVMb8pwTj' target='_blank'><button className="btn btn-primary m-4">Explora Talentos</button></a>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Home() {
                 </div>
                 <div className="flex-grow">
                   <p>Conecta con los más destacados equipos y jugadores en el escenario competitivo de Valorant y aumenta la visibilidad de tu marca.</p>
-                  <a href='https://discord.gg/b7atqU35mx'><button className="my-4 btn btn-primary">Colabora con nosotros</button></a>
+                  <a href='https://discord.gg/kbVMb8pwTj'><button className="my-4 btn btn-primary">Colabora con nosotros</button></a>
                 </div>
               </div>
             </div>

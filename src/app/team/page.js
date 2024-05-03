@@ -7,7 +7,7 @@ export default function Team() {
       <Navbar />
       <section className='flex min-h-screen flex-col items-center p-24'>
         <p className='text-white'>Si quieres ver Jugadores</p>
-        <a className='link text-green-500' href='https://discord.gg/b7atqU35mx' target='_blank'> contactame</a>
+        <a className='link text-green-500' href='https://discord.gg/kbVMb8pwTj' target='_blank'> contactame</a>
       </section>
 
     </main>
